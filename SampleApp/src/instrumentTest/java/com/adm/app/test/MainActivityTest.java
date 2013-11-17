@@ -32,4 +32,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
     public void testCalc() {
         assertEquals(3+3,6);
     }
+
+    public void testString() {
+        assertSame("Hello", "Hello");
+    }
 }
