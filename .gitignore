@@ -2,6 +2,8 @@
 *.apk
 *.ap_
 .gradle/*
+gradlew
+gradlew.*
 
 # files for the dex VM
 *.dex
