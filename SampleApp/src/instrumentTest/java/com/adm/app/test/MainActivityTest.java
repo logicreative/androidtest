@@ -36,4 +36,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
     public void testString() {
         assertSame("Hello", "Hello");
     }
+
+    public void testSuccess() {
+        assertEquals(true, true);
+    }
 }
