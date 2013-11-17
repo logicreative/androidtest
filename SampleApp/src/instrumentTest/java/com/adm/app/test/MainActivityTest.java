@@ -40,4 +40,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
     public void testSuccess() {
         assertEquals(true, true);
     }
+
+    public void testFail() {
+        assertEquals(1 + 1, 3);
+    }
 }
