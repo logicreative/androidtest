@@ -33,6 +33,10 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
         assertEquals(3+3,6);
     }
 
+    public void testShow() {
+        assertEquals(true,true);
+    }
+
     public void testString() {
         assertSame("Hello", "Hello");
     }

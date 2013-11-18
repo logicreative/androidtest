@@ -23,6 +23,14 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
+
+        int i = 0;
+        i++;
+    }
+
+    public static void uselessFunction() {
+        int a = 0;
+        a++;
     }
 
 
@@ -31,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
         
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+
         return true;
     }
 
